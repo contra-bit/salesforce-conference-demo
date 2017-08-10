@@ -77,3 +77,4 @@ function showFlugDetails(flugId) {
 var slider = new PageSlider($('body')); // Initialize PageSlider micro-library for nice and hardware-accelerated page transitions
 router.addRoute('', showFlugList);
 router.addRoute('flugs/:id', showFlugDetails);
+
